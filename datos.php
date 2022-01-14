@@ -5,5 +5,5 @@
     echo "<br>";
     echo "La ciudad es ".$_POST['ciudad'];
     echo "<br>";
-    setcookie('correo',time()+3000);
+    setcookie($_POST['correo'],time()+3000);
 ?>
